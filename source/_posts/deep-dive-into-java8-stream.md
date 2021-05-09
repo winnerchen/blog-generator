@@ -1,5 +1,5 @@
 ---
-title: deep-dive-into-java8-stream
+title: Deep Dive Into Java8 Stream
 date: 2019-11-14 10:56:28
 copyright: true
 tags:
@@ -9,7 +9,6 @@ tags:
 categories:
 - Coding
 ---
-# Deep dive into Java 8 Stream
 ## What is stream
 * Before we start, let's image a scenario where you have a collection of apples and you want to filter them by their weight, and you only want to keep apples that are more than 100 grams, how would you do it? Before Java8 and Stream was introduced, you might write code like this to iterate over the collection and store the ones that match the condition to another list.
 
@@ -25,6 +24,8 @@ public List<Apple> filterByWeight(List<apple> apples, int weight){
     return filteredApples;
 }
 ```
+
+<!--more-->
 
 Client code which invokes this method would be like this:
 

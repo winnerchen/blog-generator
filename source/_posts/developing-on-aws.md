@@ -4,27 +4,31 @@ date: 2019-11-25 16:20:55
 tags:
 ---
 
-# Developing on AWS
 ## Course Structure
 ### Fundamentals for 3-tier web apps
--
-* IAM
-* EC2
-* ELB
-* ROUTE 53
 
--
-* RDS
-* ElastiCache
+* Cloud Compute
+	* IAM
+	* EC2
+	* ELB
+	*	ROUTE 53
 
--
-* S3
+- Data Store
+	* RDS
+	* ElastiCache
+
+- Object Storage
+	* S3
+
+<!--more-->
 
 ### Developer tools
 - AWS CLI
 - Python SDK 
 - Node.js
 - IAM
+
+
 
 ### CI/CD with monitoring and infrastructure as code
 - Elastic Beanstalk
